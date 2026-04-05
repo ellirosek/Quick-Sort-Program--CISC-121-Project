@@ -3,6 +3,12 @@
 
 Quick sort has a much more efficient time complexity than the quadratic sorting algorithms and a better space complexity than merge sort. It still may slip into O(n^2) time complexity in the worst case where the array is divided into two parts where one has n-1 elements. At worst space complexity it is the same as merge sort O(n). In the best case its time complexity is O(n log n) and space complexity O(log n) which is what makes it such a highly useful algorithm. It is optimal in cases with large unstructured data sets where stability is not a requirement. The divide and conquer strategy can be easily visualized and understood by beginner programmers. The algorithm works on the basis of a pivot element used to partition the array. It then reorders the array into smaller subarrays recursively sorting them on the left and right if less or greater than the pivots value. 
 ## Demo video/gif/screenshot of test
+
+
+
+https://github.com/user-attachments/assets/5b9666dd-6372-4187-a1a9-8713b8962409
+
+
 ## Problem Breakdown & Computational Thinking 
 Decomposition
 
@@ -44,18 +50,31 @@ If list is already sorted:
 
 
 If list has no elements:
-<img width="1042" height="65" alt="Screenshot 2026-04-04 142638" src="https://github.com/user-attachments/assets/b7c5b6d7-79db-4fd9-9946-9a2284c84671" />
+<img width="771" height="118" alt="Screenshot 2026-04-04 151755" src="https://github.com/user-attachments/assets/37c06a17-f0f7-458a-8e47-84efba6ac15d" />
 
 
 If user inputs integers without commas:
+<img width="1042" height="65" alt="Screenshot 2026-04-04 142638" src="https://github.com/user-attachments/assets/b7c5b6d7-79db-4fd9-9946-9a2284c84671" />
 
+<img width="896" height="31" alt="Screenshot 2026-04-04 142703" src="https://github.com/user-attachments/assets/c9134b27-84f9-480e-8f6f-335aa768fd63" />
+
+<img width="1021" height="184" alt="Screenshot 2026-04-04 142857" src="https://github.com/user-attachments/assets/4d9fdd60-238b-43e1-acbb-7254fbbd2e7f" />
 
 
 If list has the same repeated value for each element:
 
+<img width="869" height="107" alt="Screenshot 2026-04-04 151856" src="https://github.com/user-attachments/assets/b1ab37af-8a2a-4336-a952-c9a50279b803" />
+
 If input type is invalid:
 
+<img width="1047" height="123" alt="Screenshot 2026-04-04 143038" src="https://github.com/user-attachments/assets/1f7abedc-927b-4c5d-bcf0-c5de71d36930" />
+
+<img width="903" height="181" alt="Screenshot 2026-04-04 151605" src="https://github.com/user-attachments/assets/5e4b39b1-6bbd-4ce1-87c6-6b1ee582e91f" />
+
+
 If stability is a requirement:
+
+<img width="961" height="105" alt="Screenshot 2026-04-04 152036" src="https://github.com/user-attachments/assets/7321cf67-1628-415c-afda-0eaf96a81e49" />
 
 Steps to run program with Gradio
 Modified code for app
@@ -70,6 +89,8 @@ Updated version to include a bar graph and interactable features:
 
 
 ## Hugging Face Link
+
+https://huggingface.co/spaces/EK555555555555555555555555555555555/quicksort-visualizer 
 
 ## Author & Acknowledgment
 Ella Koroshegyi
