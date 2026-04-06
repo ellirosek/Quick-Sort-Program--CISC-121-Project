@@ -40,6 +40,15 @@ START-->Receive unordered list-->Is list size ≤ 1?--- YES ----> Return list (B
  ---> Apply QuickSort recursively to Left----->Apply QuickSort recursively to Right---> Combine:
 Sorted Left + Pivot + Sorted Right---> Return Sorted List------------------> END
 
+----Visualization of the algorithm----
+
+What the user should input:
+A textbox must be implemented to ask the user to generate a list separated by commas. There must be a button in order to submit that list as the input.
+
+What output will be generated:
+A graph should appear overtop of the values listed in the array and the pivot element chosen should be highlighted.
+The user will be able to toggle between two buttons choosing if the pivot is bigger than or less than the following element in the array and the subarrays should get sorted during this process eventually showing the finalized sorted list.
+
 ## Steps to Run
 -Steps to run program within python: Ensuring that each edge case was handled. I started with a simple version of code and made adjustements so that it satisfied each constraint highlighted below.
 <img width="870" height="693" alt="Screenshot 2026-04-04 142102" src="https://github.com/user-attachments/assets/e1042a78-54b2-41ba-9cab-344c88b9c194" />
