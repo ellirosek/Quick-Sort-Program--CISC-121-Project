@@ -43,6 +43,8 @@ Sorted Left + Pivot + Sorted Right---> Return Sorted List------------------> END
 ## Steps to Run
 -Steps to run program within python: Ensuring that each edge case was handled. I started with a simple version of code and made adjustements so that it satisfied each constraint highlighted below.
 <img width="870" height="693" alt="Screenshot 2026-04-04 142102" src="https://github.com/user-attachments/assets/e1042a78-54b2-41ba-9cab-344c88b9c194" />
+
+
 ---Handling edge cases---
 
 If list is already sorted:
@@ -76,16 +78,33 @@ If stability is a requirement:
 
 <img width="961" height="105" alt="Screenshot 2026-04-04 152036" src="https://github.com/user-attachments/assets/7321cf67-1628-415c-afda-0eaf96a81e49" />
 
-Steps to run program with Gradio
-Modified code for app
+Steps to run program within Gradio:
+
+I first tried to Import gradio within the code but when I launched it there was an error code so I had to go back and edit the requirements to make sure I was referencing the proper updated gradio version. I used Level 4 AI to help me generate new code with the proper spacing and syntax to import gradio and launch the program with no errors. I then used level 4 AI to create a revised code that included a graph and two interactive buttons that the user could toggle to sort the array. I did this by prompt engineering a code that stayed true to my vision for the user which would include a tangible graph depiction of the values of each number and a way for them to control each step. I then tested this program with a few edge cases to see if the coded test cases still held in this context and they did.
+
+Modified code for app:
+
+<img width="1105" height="944" alt="Screenshot 2026-04-05 172100" src="https://github.com/user-attachments/assets/b23810f3-ee79-42c3-b00a-31b2021e4ec7" />
+
+<img width="1142" height="844" alt="Screenshot 2026-04-05 172137" src="https://github.com/user-attachments/assets/eb4d59a8-8e89-4cb2-93be-674f65ceaab1" />
+
+<img width="1397" height="806" alt="Screenshot 2026-04-05 173408" src="https://github.com/user-attachments/assets/3b2ef6a0-8477-4bd8-8fa3-f958bfb17b98" />
+<img width="1385" height="941" alt="Screenshot 2026-04-05 173309" src="https://github.com/user-attachments/assets/6fa05c92-1b7f-4866-8613-43158b47a8a5" />
+
+<img width="1110" height="520" alt="Screenshot 2026-04-05 173428" src="https://github.com/user-attachments/assets/c4823e6a-91c1-4dcf-a4f1-61fc9bcff69a" />
 
 
-Program first launch
+Program first launch:
 
-Updated version to include a bar graph and interactable features:
+<img width="1529" height="957" alt="Screenshot 2026-04-05 171952" src="https://github.com/user-attachments/assets/89cd47c4-0bd3-42e9-8a99-62706256a1b1" />
 
+Updated version to include a bar graph and interactive features:
 
+<img width="1207" height="915" alt="Screenshot 2026-04-06 150109" src="https://github.com/user-attachments/assets/4e23d0e2-e54a-4360-903e-aae00dcafbf2" />
 
+Test Case:
+
+<img width="1410" height="879" alt="Screenshot 2026-04-06 145143" src="https://github.com/user-attachments/assets/97361532-64fa-497b-b629-fb5e2ebfb1f3" />
 
 
 ## Hugging Face Link
